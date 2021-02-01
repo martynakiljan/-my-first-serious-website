@@ -12,12 +12,15 @@ The website works on the server:   https://foos-events.com/
 It was also the first commercial project for a client. I created the website for free, just to train.
 
 
-Thanks to the form on the website, the customer can send a message to the owner.
+-The website is fully responsive
+-Thanks to the form on the website, the customer can send a message to the owner.
 It works through an API that connects to the service and sends it messages.
 
 I used here: EmailJS
 
 Documentation: https://www.emailjs.com/docs/
+
+
 
 
 Technologies: HTML, CSS, JAVA SCRIPT, RWD (Responsive web design).
