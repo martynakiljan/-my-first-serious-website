@@ -1,8 +1,6 @@
 # -my-first-serious-website
 
 
-It was my thesis.
-
 My first 'serious' website, which I created for my master's thesis, but also to practice everything 
 
 I've learned so far, i.e. HTML, CSS, JAVA SCRIPT and RWD.
