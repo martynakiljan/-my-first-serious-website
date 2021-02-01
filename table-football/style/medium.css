@@ -1,0 +1,352 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header__text {
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.references__company--proffesion {
+    margin-top: -10px;
+    color: var(--color--hover);
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+
+
+.logo__desktop {
+
+    background-image: url(./../img/logo/logowhite.jpg);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: left -9px top 0px;
+
+}
+
+.show {
+    display: block;
+}
+
+
+.advantage__text--aboutUs {
+    font-size: 20px;
+}
+
+.advantage__button {
+    font-size: 19px;
+}
+
+.play__text {
+    font-size: 30px;
+}
+
+.play__smalltext {
+    text-align: center;
+    font-size: 18px;
+}
+
+.play_button {
+    font-size: 17px;
+}
+
+.background__table {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* .gallery__container {
+    max-width: 1000px;
+} */
+
+
+.gallery__arrows--desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__arrow {
+    font-size: 40px;
+    padding: 40px;
+    color: #DEA566;
+}
+
+.gallery__arrow:hover {
+    color: rgb(237, 75, 77);
+}
+
+.dot--color {
+    background-color: rgb(238, 94, 71);
+}
+
+.gallery__text {
+    font-size: 33px;
+}
+
+.team__text {
+    font-size: 33px;
+}
+
+.concept__name {
+    font-size: 33px;
+}
+
+.aboutus__mainText {
+    font-size: 33px;
+}
+
+.form__text--contact {
+    font-size: 33px;
+}
+
+.gallery__image {
+    filter: grayscale(0%);
+}
+
+.table__img {
+    width: 70%;
+}
+
+.table__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table__text {
+    font-size: 40px;
+}
+
+
+
+.team__text {
+    padding-top: 5px;
+
+
+}
+
+.team__img-one,
+.team__img-two,
+.team__img-three,
+.team__img-four {
+    width: 350px;
+    height: 350px;
+}
+
+.team__text-name {
+    font-size: 25px;
+
+}
+
+.team__text-profession {
+    font-size: 15px;
+
+}
+
+.team__description {
+    font-size: 18px;
+}
+
+
+
+.references__image {
+    position: relative;
+    background-image: url(./../img/background/treferencesimg.JPG);
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+}
+
+
+
+.references__company {
+    font-size: 18px;
+    padding-bottom: -20px;
+}
+
+.form__text-main {
+    font-size: 12px;
+}
+
+.aboutus__mainText {
+    margin-top: 40px;
+    padding: 40px;
+    color: #000000;
+}
+
+.about__hello {
+    margin-top: 20px;
+    margin: 0 auto;
+    color: var(--main-color);
+    width: 80%;
+}
+
+.about__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.about__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./../img/aboutus/13325656_1172720612748772_9040855692620963343_n.jpg);
+    width: 550px;
+    height: 500px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 6px solid #F5ABA1;
+
+
+}
+
+
+.header__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.header__button--services {
+    margin-left: 15px;
+}
+
+
+
+
+.about__description--text {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 15px;
+}
+
+
+.fa-chevron-down {
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+
+.concept__items {
+    width: 60%;
+}
+
+
+
+
+/* .container__images {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+
+
+.advantage__arrows:hover {
+    color: rgb(237, 75, 77);
+}
+
+
+.references__items-shadow {
+    align-items: flex-start;
+}
+
+.references__main-text {
+    margin-top: 30px;
+    font-size: 33px;
+}
+
+.header__items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+}
+
+
+
+.header__img--shadow {
+    position: absolute;
+    height: 100%;
+    background-image: url(./../img/background/tlo.png);
+    background-position: left;
+    width: 100%;
+    z-index: 3;
+}
+
+.header__image {
+    position: relative;
+    height: 100%;
+}
+
+.about__img {
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(./../img/aboutus/13325656_1172720612748772_9040855692620963343_n.jpg);
+    width: 100%;
+    border: 2px solid #F5ABA1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 800px) {
+
+
+    .header__text {
+        font-size: 50px;
+    }
+
+    .header__items {
+        position: absolute;
+        top: 46%;
+
+    }
+
+}
+
+
+@media screen and (min-device-width: 1000px) {
+
+
+    .logo__desktop {
+        background-position: left -9px top 0px;
+    }
+}

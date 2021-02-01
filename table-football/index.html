@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;URL=https://foos-events.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foos Kubiatowicz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="https://kit.fontawesome.com/99e6cd3922.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/small.css">
+
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="style/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 992px)' href="style/large.css">
+
+
+</head>
+
+<body>
+
+
+    <header class="menu__header" id="home">
+
+
+        <div class="language lang--mobile"><span class="language__span">
+                <p>
+                    <a class="lang__icon--mobile lang-icon--en" data-lang="en">EN</a>
+                    <a class="lang__icon--mobile lang-icon--de lang--padd" data-lang="de">DE</a>
+                </p>
+        </div>
+
+
+        <div class="container container__nav ">
+
+            <div class="menu__arrow"><i class="fas fa-chevron-down "></i></div>
+            <nav class="nav">
+
+                <ul class="nav__icons  nav__icons--social--media">
+
+                    <a href="https://www.facebook.com/FoosEvents/" class="icon__a">
+                        <li class="icon"><i class="fab fa-facebook-f"></i></li>
+                    </a>
+                    <a href="https://instagram.com/foosevents?igshid=1tcxdueeuf6h" class="icon__a">
+
+                        <li class="icon"><i class="fab fa-instagram"></i></li>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCllTnBfcVHIO9EoD8xjjgog" class="icon__a">
+
+                        <li class="icon"><i class="fab fa-youtube"></i></li>
+                    </a>
+
+
+                </ul>
+
+                <ul class="nav__icons nav__icons--contact">
+
+
+                    <li class="icon__contact icon__phone"><i class="icon_fas fas fa-phone"></i>+41 78 924 06 24</li>
+                    <li class="icon__contact icon__email"><a href="mailto:foos.events@gmail.com"
+                            class="icon__contact--mail icon__email"><i class="icon_fas far fa-envelope"></i>
+                            foos.events@gmail.com</a> </i>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="nav__desktop">
+
+                <div class="logo__desktop"><a href="#home"
+                        style="display: inline-block; width: 100%; height: 100%;"></a></div>
+
+                <ul class="li__desktop">
+                    <li class="desktop__li"><a href="#about__us" class="a__desktop" data-lang-en="about us"
+                            data-lang-de="über uns">über uns</a></li>
+                    <li class="desktop__li"><a href="#konzept" class="a__desktop" data-lang-en="conzept"
+                            data-lang-de="konzept">konzept</a></li>
+                    <li class="desktop__li"><a href="#team" class="a__desktop" data-lang-de="team">team</a></li>
+                    <li class="desktop__li"><a href="#gallery" class="a__desktop" data-lang-en="gallery"
+                            data-lang-de="galerie">galerie</a></li>
+                    <li class="desktop__li"><a href="#contact" class="a__desktop" data-lang-en="contact"
+                            data-lang-de="kontakt">kontakt</a></li>
+
+                    <li class="desktop__li desktop--language">
+                        <div><span class="language__span">
+                                <p>
+                                    <a class="lang__icon lang-icon--en" data-lang="en"> EN</a>
+                                    <span>/</span>
+                                    <a class="lang__icon lang-icon--" data-lang="de">DE</a>
+
+                                </p>
+                        </div>
+                    </li>
+                </ul>
+            </ul>
+
+
+            <div class="menu__logo" id="#home">
+                <div class="menu__logo-img"></div>
+            </div>
+            <div class="hamburger__container">
+                <div class="menu__hamburger">
+                    <div class="hamburger__icon"><i class="fas fa-bars"></i></div>
+                </div>
+            </div>
+            <div class="nav__tablet--container on">
+                <ul class="nav__tablet">
+
+                    <ul class="li__tablet">
+                        <li class="tablet__li"><a href="#about__us" class="a__tablet" data-lang-en="About us"
+                                data-lang-de="über uns">Über uns</a></li>
+
+                        <li class="tablet__li"><a href="#konzept" class="a__tablet" data-lang-en="Conzept"
+                                data-lang-de="konzepte">Konzepte</a></li>
+
+                        <li class="tablet__li"><a href="#team" class="a__tablet" data-lang-en="Team">Team</a></li>
+
+                        <li class="tablet__li"><a href="#gallery" class="a__tablet" data-lang-en="Gallery"
+                                data-lang-de="galerie">Galerie</a></li>
+
+                        <li class="tablet__li"><a href="#contact" class="a__tablet" data-lang-en="Contact"
+                                data-lang-de="kontakt">Kontakt</a></li>
+                    </ul>
+                </ul>
+            </div>
+
+
+        </div>
+    </header>
+
+    <section class="header__welcome">
+        <div class="container">
+
+            <div class="header__image">
+                <div class="video-container">
+                    <div class="video-foreground">
+
+
+                        <video class="video" id="BgVideo" muted autoplay width="100%" height="150%"
+                            src="/video/videoplayback.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- autoplay muted loop playsinline -->
+
+
+                        <!-- <iframe id="youtube" width="100%" height="150%" rameBorder="0" scrolling="no" loading="eager"
+                            src="https://www.youtube.com/embed/Mj3lqtXTSO4?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=0&loop=1&playlist=Mj3lqtXTSO4&enablejsapi=1"
+                            frameborder="1"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ;
+                            allowfullscreen></iframe> -->
+                    </div>
+                </div>
+
+
+                <div class="header__img header__img--shadow">
+
+                    <img class="img__header">
+                    <div class="header__items">
+                        <h1 class="header__text animate__animated animate__slideInLeft"
+                            data-lang-en="Unique Event ideas?" data-lang-de="Einzigartige Event Idee gesucht?">
+                            Einzigartige Event-Idee gesucht? </h1>
+                        <h2 class="header__text header__text-up animate__animated animate__slideInRight
+                        " data-lang-en="Play with the world champion!" data-lang-de="Spiel mit dem Weltmeister!">Spiel
+                            mit dem Weltmeister! </h2>
+                        <div class="header__buttons">
+                            <button class="header__button"><a href="#about__us"
+                                    class="header__buttons header__button--one" data-lang-en="about us"
+                                    data-lang-de="über uns">Über
+                                    uns</a></button>
+                            <button class="header__button header__button--services"> <a href="#konzept"
+                                    class="header__buttons header__button--two" data-lang-en="Services"
+                                    data-lang-de=" Dienstleistungen">
+                                    Dienstleistungen</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__advantage--main">
+            <section class="our__advantage wrapper" id="aboutus">
+                <div class="container container__advantage parent--advantage">
+
+
+
+                    <div class="container__icon  child--advantage">
+                        <div class="advantage__icon advantage__icon--one"></div>
+                        <div class="advantage__text">
+                            <p class="advantage__text advantage__text--aboutUs"
+                                data-lang-en="Champion players on the team to support you with enthusiasm:"
+                                data-lang-de="TischfussballerInnen mit diversen Schweizer-, Europa- und Weltmeistertiteln, die Dich gerne mit Begeisterung unterstützen:">
+                                TischfussballerInnen mit diversen Schweizer-, Europa- und Weltmeistertiteln, die Dich
+                                gerne mit Begeisterung unterstützen:</p>
+                        </div>
+                        <button class="advantage__button" data-lang-en="about us" data-lang-de="über uns"> <a
+                                class="advantage advantage--a" data-lang-en="about us" data-lang-de="über uns"
+                                href="#about__us"">über uns</a></button>
+
+                    </div>
+
+
+
+                    <div class=" container__icon child--advantage">
+                                <div class="advantage__icon advantage__icon--two"></div>
+                                <div class="advantage__text">
+                                    <p class="advantage__text  advantage__text--aboutUs"
+                                        data-lang-en="Services tailored to your wishes and ideas:" data-lang-de="Dienstleistungen
+                        Angepasst auf Deine Wünsche und Vorstellungen:">Dienstleistungen angepasst auf Deine Wünsche
+                                        und Vorstellungen:</p>
+                                </div>
+                                <button class="advantage__text  advantage__button"><a href="#konzept"
+                                        class="advantage advantage--a" data-lang-en="services" data-lang-de="Unsere
+                            Dienstleistungen">Unsere Dienstleistungen</a></button>
+                    </div>
+
+
+                    <div class="container__icon child--advantage ">
+                        <div class=" advantage__icon advantage__icon--three"></div>
+                        <div class="advantage__text">
+                            <!-- <p class="advantage__text advantage__text--aboutUs" data-lang-en="Unforgettable moments"
+                                data-lang-de="Unvergessliche Momente">Unvergessliche Momente</p> -->
+                            <p class="advantage__text advantage__text--aboutUs"
+                                data-lang-en="Everyone knows it, most of them love it and everyone is having fun:">
+                                Jeder kennt es, die meisten lieben es und alle haben Spass:</p>
+                        </div>
+                        <button class="advantage__button"><a href="#gallery" class="advantage advantage--a"
+                                data-lang-en="gallery" data-lang-de="galerie">Galerie</a></button>
+                    </div>
+
+                    <div class="container__icon child--advantage">
+                        <div class="advantage__icon advantage__icon--four"></div>
+                        <div class="advantage__text">
+                            <!-- <p class="advantage__text advantage__text--aboutUs" data-lang-en="Quality and satisfaction"
+                                data-lang-de="Qualität und Zufriedenheit
+                        ">Qualität und Zufriedenheit </p> -->
+                            <p class="advantage__text--aboutUs"
+                                data-lang-en="Hear from others who have already been to our tables?:"
+                                data-lang-de="Wer schon mit uns am Tisch war und wie es ihnen gefallen hat?:"> Wer schon
+                                mit uns am Tisch war und wie es ihnen gefallen hat?:</p>
+                        </div>
+                        <button class="advantage__button"><a href="#references" class="advantage advantage--a"
+                                data-lang-en="reference" data-lang-de="Referenzen
+                    ">Referenzen </a></Referenzen></button>
+                    </div>
+
+                    <div class="container__icon child--advantage">
+                        <div class="advantage__icon advantage__icon--five"></i></div>
+                        <div class="advantage__text">
+
+                            <p class="advantage__text advantage__text--aboutUs"
+                                data-lang-en="Buy or rent suitable equipment:"
+                                data-lang-de="Einen passenden Tisch mieten oder kaufen:">Einen passenden Tisch mieten
+                                oder kaufen:
+                            </p>
+                        </div>
+                        <button class="advantage__button"> <a href="#shop" class="advantage advantage--a"
+                                data-lang-en="Sale / rental" data-lang-de="Verkauf/Verleih">Verkauf/Verleih</a></button>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+
+    </section>
+    <div class="advantage__arrows">
+        <div><i class="fas fa-angle-left advantage__arrows btn--left"></i>
+
+        </div>
+        <div>
+            <i class="fas fa-angle-right advantage__arrows btn--right"></i>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <section class="about__us" id="about__us">
+
+        <h3 class="aboutus__mainText" data-lang-en="about us" data-lang-de="über uns">ÜBER UNS
+        </h3>
+        <div class="container__aboutUs">
+
+            <div class="about__img content"></div>
+
+            <div class="about__description ">
+                <p class="about__hello" data-lang-en="Welcome!" data-lang-de="Willkommen!">Willkommen!</p>
+                <div class="about__description--text " data-lang-en="Foos Events Kubiatowicz was created to turn our passion into a profession. We want to spread our knowledge, skills, and fun of table football to others. We organize table football events across Switzerland.
+                Things we do :" data-lang-de=" Foos Events Kubiatowicz haben wir gegründet, um unsere Leidenschaft zum Beruf zu machen. Wir wollen
+den Spass am Tischfussball und unser Wissen und Können mit anderen teilen. Wir organisieren Tischfussball-Events
+schweizweit. Ein paar Beispiele wofür sich ein solcher Event besonders gut eignet: ">
+                    <p> Foos Events Kubiatowicz haben wir gegründet, um unsere Leidenschaft zum Beruf zu machen. Wir
+                        wollen
+                        den Spass am Tischfussball und unser Wissen und Können mit anderen teilen. Wir organisieren
+                        Tischfussball-Events
+                        schweizweit. Ein paar Beispiele wofür sich ein solcher Event besonders gut eignet:
+                </div>
+                <div class="about__container ">
+                    <ul class=" about__list">
+                        <li class="about__li about__li--item ">
+                            <i class=" fas fa-futbol">
+                            </i>
+                            <span class="about_span" data-lang-en="for team building"
+                                data-lang-de="zur Teambildung"></i>zur Teambildung</span>
+                        </li>
+                        <li class="about__li about__li--item ">
+                            <i class="fas fa-futbol">
+                            </i>
+                            <span class="about_span" data-lang-en="for employee motivation"
+                                data-lang-de="zur Mitarbeitermotivation">zur Mitarbeitermotivation</span>
+                        </li>
+                        <li class="about__li about__li--item">
+                            <i class=" fas fa-futbol">
+                            </i>
+                            <span class="about_span" data-lang-en="for a graduation party"
+                                data-lang-de="zur Promotion">zur
+                                Promotion</span>
+                        </li>
+                        <li class="about__li about__li--item">
+                            <i class=" fas fa-futbol">
+                            </i><span class="about_span" data-lang-en=" for the trade fair appearance"
+                                data-lang-de="für den Messeauftritt"> für
+                                den Messeauftritt</span>
+                        </li>
+                        <li class="about__li about__li--item">
+                            <i class="fas fa-futbol">
+                            </i> <span class="about_span" data-lang-en="for the Christmas party"
+                                data-lang-de="für die Weihnachtsfeier">für die Weihnachtsfeier</span>
+                        </li>
+                        <li class="about__li about__li--item ">
+                            <i class=" fas fa-futbol">
+                            </i> <span class="about_span" data-lang-en="for strengthening your brand"
+                                data-lang-de="für die Stärkung einer Marke">für die Stärkung einer Marke</span>
+                        </li>
+                    </ul>
+                    <div data-lang-en="Commitment and professionalism plus your wishes
+                        and expectations guarantee a great result.
+                        Do you have a specific idea for your table football event?
+                                      
+                        We organize and implement your ideas in a goal-oriented and professional manner.
+                                          
+                        Do you want to have a table football event
+                        but don't know exactly how?
+                                          
+                        
+                        We advise you competently and find the optimal concept together.
+                        Each order is worked out individually and
+                        executed with a lot of commitment." data-lang-de="Unser Engagement und unsere Professionalität in Kombination mit Deinen Wünschen und Erwartungen garantieren
+                        ein tolles Resultat.
+                         
+                        Hast Du eine konkrete Vorstellung von Deinem Tischfussball-Event? Wir organisieren und realisieren Deine Ideen zielorientiert und professionell. Du willst ein Tischfussball-Event organisieren und weisst aber nicht genau, wie? Wir beraten Dich kompetent und
+                        finden zusammen das optimale Konzept für Deinen Anlass.
+                        Jeder Auftrag wird individuell erarbeitet und mit viel Engagement ausgeführt.">
+                        <span>Unser Engagement und unsere Professionalität in Kombination mit Deinen Wünschen und
+                            Erwartungen garantieren ein tolles Resultat.</span>
+                        <br>
+                        <br>
+                        <span>Hast Du eine konkrete Vorstellung von Deinem Tischfussball-Event? Wir organisieren und
+                            realisieren Deine Ideen zielorientiert und professionell.</span>
+                        <br>
+                        <br>
+
+                        <span>Du willst ein Tischfussball-Event organisieren und weisst aber nicht genau, wie? Wir
+                            beraten Dich kompetent und finden zusammen das optimale Konzept für Deinen Anlass.</span>
+                        <br>
+                        <br>
+                        <span> Jeder Auftrag wird individuell erarbeitet und mit viel Engagement ausgeführt.
+                        </span>
+
+                        <br>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="play">
+        <div class="play__item">
+            <div class="background__up--play"></div>
+            <div class="play__image">
+                <img class="play__img play__img-shadow">
+                <div class="play__text">
+                    <div class="play__maintext">
+                        <h3 class="play__text-main" data-lang-en="Why is a table football event"
+                            data-lang-de="Warum ist ein Tischfussball Event">Warum ist ein Tischfussball Event </h3>
+                        <h3 class=" play__text-main" data-lang-en="a great idea?" data-lang-de="eine tolle Idee?">eine
+                            tolle Idee?</h3>
+                    </div>
+                    <div class="play__smalltext">
+
+                        <span
+                            data-lang-en="Everyone knows it and has played before. That's why most of them will want to participate.That is half the success for a good event. The real thing is in the game!
+                        At the table, you set fears aside, and all prejudices go.
+                        Sport, fun and individual ambition are important and break all boundaries. This is the easiest way to have great memories and create relationships.
+                        Whether small or large, man or woman, bar master or casual player - table football is THE solution."
+                            data-lang-de="Jeder kennt Tischfussball und hat wahrscheinlich schon einmal gespielt, weswegen die meisten Spass daran finden
+                        und mit Freude mitmachen werden. Dies ist bereits eine gute Voraussetzung für einen grossartigen Event. Am Tischfussballtisch weichen alle Vorurteile und Ängste dem Sportgeist, dem
+                        individuellen Ehrgeiz und dem Spass, dies sorgt für eine lustige und entspannte Atmosphäre. Ein einfacher Weg, um tolle Erinnerungen zu schaffen und neue Beziehungen zu knüpfen. Ob klein oder gross, weiblich oder männlich, Plauschspieler oder Halb-Profi, Tischfussball bringt alle zusammen.">Jeder
+                            kennt Tischfussball und hat wahrscheinlich schon einmal gespielt, weswegen die meisten Spass
+                            daran finden
+                            und mit Freude mitmachen werden. Dies ist bereits eine gute Voraussetzung für einen
+                            grossartigen Event. Am Tischfussballtisch weichen alle Vorurteile und Ängste dem Sportgeist,
+                            dem
+                            individuellen Ehrgeiz und dem Spass, dies sorgt für eine lustige und entspannte Atmosphäre.
+                            Ein einfacher Weg, um tolle Erinnerungen zu schaffen und neue Beziehungen zu knüpfen. Ob
+                            klein oder gross, weiblich oder männlich, Plauschspieler oder Halb-Profi, Tischfussball
+                            bringt alle zusammen.</span>
+
+                        <button class="play_button play-button--desktop"> <a href="#contact" class="play__button--a"
+                                data-lang-en=" contact us" data-lang-de="kontaktiere uns">kontaktiere uns</a>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </section>
+    <section class="table" id="shop">
+        <div class="container table__container">
+            <div class="background__table">
+                <div class="table__img"></div>
+                <div class="table__text "> <span data-lang-en="Would you like to buy or rent a table?"
+                        data-lang-de="Möchten Sie einen Tischfußball kaufen oder mieten?"> Möchtest Du einen
+                        Tischfussballtisch kaufen oder mieten?</span>
+                    <button class="play_button play-button--desktop">
+                        <a href="#contact" class="play__button--a" data-lang-en="ask us" data-lang-de="frag uns">frag
+                            uns</a></button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="top top--background"></div>
+    <section class="our__concept" id="konzept">
+        <h1 class="concept__name" data-lang-en="our concept" data-lang-de="unser konzept">
+            unser konzept</h1>
+        <div class="container--advantage  our__advantage--concept ">
+
+            <div class="concept__items">
+                <div class="concept__img concept__img-one">
+                    <div class="concept__img-shadow">
+                        <i class="fas fa-glass-cheers icon--concept"></i>
+                        <div class="concept__text concept__text-one shadow" data-lang-en="Customer events:"
+                            data-lang-de="Kundenevents:">Kundenevents:</div>
+                    </div>
+                </div>
+
+                <p class="concept__description"
+                    data-lang-en="We hope to make your event special and unique with professional equipment and individual concepts. We can provide you with tables (including assembly) for rent. We can also help you buy tables (or spare parts) for the office or your own home."
+                    data-lang-de="Wir bieten kreative und individuelle Konzepte fürjeden Rahmen; ob für einen Anlass in einem Autohaus, einem
+                    Kundenturnier, einer Vorführung im Shoppingcenter oder einerMitarbeiterfeier, wir organisieren den passenden Event.">
+                    Wir bietenkreative und individuelle Konzepte für jeden Rahmen; ob für einenAnlass in einem
+                    Autohaus, einem
+                    Kundenturnier, einer Vorführung im Shoppingcenter oder einerMitarbeiterfeier, wir organisieren den
+                    passenden Event.</p>
+
+
+            </div>
+
+            <div class="concept__items">
+
+                <div class="concept__img concept__img-two ">
+
+                    <div class="concept__img-shadow">
+                        <i class="fas fa-handshake icon--concept"></i>
+                        <div class="concept concept__text-two shadow" data-lang-en=" Trade fairs and conventions:"
+                            data-lang-de="Messen und Conventions:">Messen und Conventions: </div>
+                    </div>
+
+                </div>
+
+                <p class="concept__description "
+                    data-lang-en="Are you looking for an innovative idea for your stand at a trade fair? You need a highlight  for your convention? Give guests the opportunity to play against or with the best in the world."
+                    data-lang-de="Auf der Suche nach einer innovativen Idee für den Messestand? Ein Highlight für die Convention gesucht? Biete Deinen Gästen die Möglichkeit gegen (oder mit) den besten TischfussballerInnen auf dem Globus zu spielen.">
+                    Auf der Suche nach einer innovativen Idee für den Messestand? Ein Highlight für die Convention
+                    gesucht? Biete Deinen Gästen die Möglichkeit gegen (oder mit) den besten TischfussballerInnen auf
+                    dem Globus zu spielen.
+                </p>
+            </div>
+
+
+            <div class="concept__items">
+
+                <div class="concept__img concept__img-three ">
+
+                    <div class="concept__img-shadow">
+                        <i class="fas fa-shopping-cart icon--concept"></i>
+                        <div class="concept concept__text-three shadow" data-lang-en="Training and workshop:"
+                            data-lang-de="Training und Workshop:">Training und Workshop:</div>
+                    </div>
+
+                </div>
+
+                <p class="concept__description"
+                    data-lang-en="Young or old, big or small - everyone can play table football. WITH US ! Do you want to improve your game skills, are you about to play a table football tournament?  You can prepare with the world champions!"
+                    data-lang-de="Ob Jung oder Alt, Gross oder Klein, jeder kann Tischfussball spielen – MIT UNS! Willst Du Deine Spielkenntnisse  verbessern? Steht Dir ein Tischfussballturnier bevor? Hier kannst Du Dich mit Weltmeistern darauf vorbereiten.">
+                    Ob Jung oder Alt, Gross oder Klein, jeder kann Tischfussball spielen – MIT UNS! Willst Du Deine
+                    Spielkenntnisse verbessern? Steht Dir ein Tischfussballturnier bevor? Hier kannst Du Dich mit
+                    Weltmeistern darauf vorbereiten.</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+    <section class="team" id="team">
+        <div class="container">
+            <div class="background__up"></div>
+
+            <div class="team__background">
+                <h1 class="team__text team__text--main" data-lang-en="Our Team" data-lang-de="Unser Team">Unser Team
+                </h1>
+
+                <div class="team__items">
+                    <div class="team__item">
+                        <div class="team__box">
+                            <div class="team__img team__img-one"></div>
+                            <div class="team__text">
+                                <p class="team__text-name">Cindy</p>
+                                <p class="team__text team__text-name">Kubiatowicz-Moser</p>
+                            </div>
+                            <div class="team__text">
+                                <p class="team__text team__text-profession" data-lang-en="Table soccer world champion"
+                                    data-lang-de="Tischfußball-Weltmeisterin">
+                                    Tischfußball-Weltmeisterin</p>
+                            </div>
+                            <p class="team__description team__description-one"
+                                data-lang-en="
+                                Switzerland is her home. When she was a little girl, she was nice and would occasionally stand a foosball table. She has been playing table football professionally since 2005 and has fought for several World and Swiss Championship titles."
+                                data-lang-de="Die quirlige Zürcherin die immer für ein Spässchen zu haben ist, hat noch nie halbe Sachen gemacht, Ziele die sie sich setzt, erreicht sie gewöhnlich mit viel Fleiss und Ausdauer. Als jugendliche hat sie ihren sportlichen Ehrgeiz erfolgreich im Judo ausgelebt, heute ist ihre grosse Leidenschaft der Tischfussball. Schon als kleines Mädchen stand sie gelegentlich am Tischfussballtisch, seit 2005 betreibt sie den in der Schweiz annerkannten Sport professionell. Neben vielen anderen Schweizermeister-, und Weltmeistertiteln, hat sich Cindy seit 2012 6 Mal in Folge den Damen-Einzel Titel an der Schweizermeisterschaft erkämpft, bevor Sie in die Babypause ging. Inzwischen gehört sie in der Damennationalmannschaft zum Inventar und weltweit zu den einer der besten Spielerinnen.">
+                                Die quirlige Zürcherin die immer für ein Spässchen zu haben ist, hat noch nie halbe
+                                Sachen gemacht, Ziele die sie sich setzt, erreicht sie gewöhnlich mit viel Fleiss und
+                                Ausdauer. Als jugendliche hat sie ihren sportlichen Ehrgeiz erfolgreich im Judo
+                                ausgelebt, heute ist ihre grosse Leidenschaft der Tischfussball. Schon als kleines
+                                Mädchen stand sie gelegentlich am Tischfussballtisch, seit 2005 betreibt sie den in der
+                                Schweiz annerkannten Sport professionell. Neben vielen anderen Schweizermeister-, und
+                                Weltmeistertiteln, hat sich Cindy seit 2012 6 Mal in Folge den Damen-Einzel Titel an der
+                                Schweizermeisterschaft erkämpft, bevor Sie in die Babypause ging. Inzwischen gehört sie
+                                in der Damennationalmannschaft zum Inventar und weltweit zu den einer der besten
+                                Spielerinnen.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="team__item">
+                        <div class="team__box">
+                            <div class="team__img-two"></div>
+                            <div class="team__text">
+                                <p class="team__text-name">Filip Kubiatowicz</p>
+                            </div>
+                            <div class="team__text">
+                                <p class="team__text team__text-profession" data-lang-en="Table soccer world champion"
+                                    data-lang-de="Tischfußball-Weltmeister">Tischfußball-Weltmeister</p>
+                            </div>
+                            <p class="team__description team__description-two" data-lang-en="He has been in the Active table football environment. He originally comes from Poland, where he discovered his passion for table football.
+                                The multiple world champion is known worldwide as a player as well as a coach."
+                                data-lang-de="Seit über 20 Jahren ist der gebürtige Pole im Tischfussball-Umfeld aktiv und ist dabei um die ganze Welt gereist. Er hat sich in seiner einzigartigen Karriere in verschiedensten Disziplinen mehrere Weltmeistertitel erkämpft, ist mehrfacher polnischer Meister und hat unzählige weitere Titel. Durch seine ausgeprägten analytischen Fähigkeiten, hat er sich aber insbesondere als Trainer einen Namen gemacht in der Tischfusballszene. Mit der polnischen, sowie auch mit der schweizerischen Damennationalmannschaft hat er Titel und Podestplätze geholt. Auch an Cindy's grossem Erfolg ist er massgeblich beteiligt, stand er doch bei fast all ihren grossen Erfolgen neben dem Tisch mit seinen wertvollen Inputs, und feuerte sie an bis zum Sieg. ">
+
+                                Seit über 20 Jahren ist der gebürtige Pole im Tischfussball-Umfeld aktiv und ist dabei
+                                um die ganze Welt gereist. Er hat sich in seiner einzigartigen Karriere in
+                                verschiedensten Disziplinen mehrere Weltmeistertitel erkämpft, ist mehrfacher polnischer
+                                Meister und hat unzählige weitere Titel. Durch seine ausgeprägten analytischen
+                                Fähigkeiten, hat er sich aber insbesondere als Trainer einen Namen gemacht in der
+                                Tischfusballszene. Mit der polnischen, sowie auch mit der schweizerischen
+                                Damennationalmannschaft hat er Titel und Podestplätze geholt. Auch an Cindy's grossem
+                                Erfolg ist er massgeblich beteiligt, stand er doch bei fast all ihren grossen Erfolgen
+                                neben dem Tisch mit seinen wertvollen Inputs, und feuerte sie an bis zum Sieg.
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__box">
+                            <div class="team__img-three"></div>
+                            <div class="team__text">
+                                <p class="team__text team__text-name">Divyam Täschler</p>
+                            </div>
+                            <div class="team__text">
+                                <p class="team__text team__text-profession" data-lang-en="Player / Photographer"
+                                    data-lang-de="Spielerin/Fotografin">Spielerin/Fotografin</p>
+                            </div>
+                            <p class="team__description team__description-three"
+                                data-lang-en="As an ambitious amateur photographer, she documents many tournaments with her camera and shares the images with the global foosball community. Two years ago she was employed as the official photographer of the table football world association.">
+                                Als ambitionierte Hobby-Fotografin hält sie viele Turniere mit Ihrer Kamera fest und
+                                teilt die Bilder mit der weltweiten Tischfussballgemeinschaft, einige Jahre als
+                                offizielle Fotografin des Tischfussball-Weltverbandes. Auch das Töggelen betreibt sie
+                                ehrgeizig seit über 15 Jahren; 6 Schweizermeistertitel im Damen Doppel und Mixed und
+                                etliche internationale Podestplätze im Team und Doppel konnte sie sich bereits
+                                erkämpfen. Seit 10 Jahren ist sie fester Bestandteil der Schweizer
+                                Damennationalmannschaft, viele Jahre davon als Captain. </p>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__box">
+                            <div class="team__img-four"></div>
+                            <div class="team__text">
+                                <p class="team__text team__text-name">Nicole Krüsi</p>
+                            </div>
+                            <div class="team__text">
+                                <p class="team__text team__text-profession" data-lang-en="Support, photographer"
+                                    data-lang-de="Spielerin">Spielerin</p>
+                            </div>
+                            <p class="team__description team__description-four"
+                                data-lang-en="As an ambitious amateur photographer
+                                she keeps up with many tournaments Your camera and share the images
+                                with the global foosball community. Two years ago she was employed as the official photographer of the table football world association."
+                                data-lang-de="Die talentierte Bündnerin stand mit 16 zum ersten Mal an einem Töggelitisch und fand sofort ihre Leidenschaft. Steil bergauf mit der Töggelikarriere ging es dann ein paar Jahre später als sie nach Zürich zog und regelmässig mit ihrer „Foos-Events-Family“ trainierte. Sehr schnell konnte sie grosse Erfolge verbuchen und Titel abstauben. Ihr Spass am Spiel macht sie zu einer harten, aber beliebten Gegnerin und ihre eiskalte Treffsicherheit im Sturm hat ihr den Spitznamen „Krüsinator“ eingebracht.">
+                                Die talentierte Bündnerin stand mit 16 zum ersten Mal an einem Töggelitisch und fand
+                                sofort ihre Leidenschaft. Steil bergauf mit der Töggelikarriere ging es dann ein paar
+                                Jahre später als sie nach Zürich zog und regelmässig mit ihrer „Foos-Events-Family“
+                                trainierte. Sehr schnell konnte sie grosse Erfolge verbuchen und Titel abstauben. Ihr
+                                Spass am Spiel macht sie zu einer harten, aber beliebten Gegnerin und ihre eiskalte
+                                Treffsicherheit im Sturm hat ihr den Spitznamen „Krüsinator“ eingebracht. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="gallery wrapper--gallery" id="gallery">
+
+        <h2 class="gallery__text" data-lang-en="gallery" data-lang-de="galerie">Galerie</h2>
+        <div class="gallery__container ">
+
+            <div class="container__images grid">
+                <div class="gallery__image grid-item-1"></div>
+                <div class="gallery__image grid-item-2"></div>
+                <div class="gallery__image grid-item-3"></div>
+                <div class="gallery__image grid-item-4"></div>
+                <div class="gallery__image grid-item-5"></div>
+                <div class="gallery__image grid-item-6"></div>
+                <div class="gallery__image grid-item-7"></div>
+                <div class="gallery__image grid-item-8"></div>
+                <div class="gallery__image grid-item-9"></div>
+                <div class="gallery__image grid-item-10"></div>
+                <div class="gallery__image grid-item-11"></div>
+                <div class="gallery__image grid-item-12"></div>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="gallery__arrows--desktop ">
+        <div><i class="fas fa-angle-left gallery__arrow btn--left--desktop"></i>
+        </div>
+        <div>
+            <i class="fas fa-angle-right gallery__arrow btn--right--desktop"></i>
+        </div>
+
+
+    </div>
+
+    <div class="references__item">
+        <h2 class="references_main references__main-text" data-lang-en="What do companies say about us?"
+            data-lang-de="Was sagen Unternehmen über uns?">Was sagen Unternehmen über uns?</h2>
+        <div class="references__dots">
+            <div class="references__dot"></div>
+            <div class="references__dot"></div>
+            <div class="references__dot"></div>
+        </div>
+
+    </div>
+    <section class="references" id="references">
+
+        <div class="references__image">
+
+            <div class="references__items references__items-shadow">
+
+                <div class="references__wrapper">
+
+                    <div class="references__parent">
+                        <div class="container__references">
+                            <div class="logo__references logo__references--one"></div>
+                            <div class="references__text"
+                                data-lang-en="He has been active in the table football community. He originally comes from Poland, where he discovered his passion for table football. This multiple world champion is known globally as a player as well as a coach."
+                                data-lang-de="Ich kann Foos Events nur weiterempfehlen.
+                                Von der ersten Kontaktaufnahme bis hin zur Ausführung an unserem Menschentöggeliturnier  in Küssnacht klappte alles reibungslos.
+                                 Auch wenn was kurzfristiges geändert werden musste waren Filip und Cindy sehr flexibel. Es ist sehr toll mit einer solchen Firma Events zu organisieren..">
+                                Ich kann Foos Events nur
+                                weiterempfehlen. Von der ersten Kontaktaufnahme bis hin zur Ausführung an unserem
+                                Menschentöggeliturnier
+                                in Küssnacht klappte alles reibungslos.
+                                Auch wenn was kurzfristiges geändert werden musste waren Filip und Cindy sehr flexibel.
+                                Es ist sehr toll mit einer solchen Firma Events zu organisieren.</div>
+                            <p class="references__company">Stefan "Sidi" Sidler</p>
+                            <p class="references__company references__company--proffesion"
+                                data-lang-en="-Main organizer" data-lang-de="-Hauptveranstalter">- Hauptveranstalter
+                            </p>
+
+                        </div>
+
+
+
+
+                        <div class="container__references">
+                            <div class="logo__references logo__references--two"></div>
+                            <div class="references__text" data-lang-en="Super personable, professional and very entertaining!
+                            Compliments you both! I look forward to seeing you again soon." data-lang-de="Super sympathisch, professionell und sehr unterhaltsam!
+                            Kompliment  euch beiden! Freue mich euch bald wiederzusehen.">Super sympathisch,
+                                professionell und sehr
+                                unterhaltsam! Kompliment euch beiden! Freue mich euch bald wiederzusehen.</div>
+                            <p class="references__company">Thomas Odermatt</p>
+                            <p class="references__company references__company--proffesion">- TV und Event Moderator
+                            </p>
+                        </div>
+
+
+
+                        <div class="container__references">
+                            <div class="logo__references logo__references--three"></div>
+                            <div class="references__text"
+                                data-lang-en="With a lot of commitment and passion, Cindy and Filip have
+                            accompanies our event.
+                            Our guests and employees were enthusiastic about their table football skills and were given valuable tips. We are happy to recommend Foos Events."
+                                data-lang-de="Mit viel Engagement und Leidenschaft, haben Cindy und Filip
+                                unseren Event begleitet.
+                                Unsere Gäste und Mitarbeiter waren von den Tischfussball-Künsten der beiden begeistert und wurden mit wertvollen Tipps bedient. Gerne empfehlen wir Foos Events weiter.">
+                                Mit viel Engagement und Leidenschaft, haben Cindy und Filip
+                                unseren Event begleitet.
+                                Unsere Gäste und Mitarbeiter waren von den Tischfussball-Künsten der beiden
+                                begeistert und wurden mit wertvollen Tipps bedient. Gerne empfehlen wir Foos Events
+                                weiter.</div>
+                            <p class="references__company"> Barbara Kälberer</p>
+                            <p class="references__company references__company--proffesion"> - Marketing Manager</p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="top top--background-up"></div>
+        </div>
+
+
+
+    </section>
+
+
+    <form>
+
+        <div class="container">
+            <div class="box_form" id="contact">
+                <h1 class="form__text form__text-contact" data-lang-en="contact us!" data-lang-de="kontaktiere uns!">
+                    kontaktiere uns!</h1>
+                <label class="form_label">
+                    <span class="form__text form__text-main form--name" data-lang-en="First name:"
+                        data-lang-de="Vorname:">Vorname:</span>
+                    <input type="text" class="firstname_form name_form" name="text" id="text" />
+                </label>
+
+
+                <label class="form_label">
+                    <span class="form__text form__text-main form--name" data-lang-en="Surname:"
+                        data-lang-de="Nachname:">Nachname:</span>
+                    <input type="text" class="surname_form name_form" name="text" id="text" />
+                </label>
+                <label class="form_label">
+                    <span class="form__text form__text-main">E-mail:</span>
+                    <input type="text" class="email_form name_form" name="email" id="email" />
+                </label>
+
+                <label class="form_label">
+                    <span class="form__text form__text-main" data-lang-en="message"
+                        data-lang-de="Nachricht">Nachricht:</span>
+                    <textarea class="message_form name_form" name="message" id="message"></textarea>
+
+                    <input type="submit" href="" class="form_button" data-lang-en="Send!" data-lang-de="Senden!"
+                        id="submit-btn" value="Senden!" />
+
+
+                </label>
+                <div class="icon_up scrollTopButton animate__animated animate__bounce animate__infinite"><a
+                        href="#home"><i class="fas fa-chevron-up  "></i></a></div>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+    <article class="article__section ">
+        <div class="article__background">
+            <h2 class="article__text" data-lang-en="Maybe you would like to read more about us?"
+                data-lang-de="Vielleicht möchtest du mehr über uns lesen? ">
+                Vielleicht möchtest du mehr über uns lesen?</h2>
+            <button class="article__btn">
+                <a href="https://www.schweizer-illustrierte.ch/stars/my-day/tischfussball-weltmeisterin-cindy-kubiatowicz-moser-privat-fotos?fbclid=IwAR1ELTvxmMaUd3EDsqbtwdm6WfVOBVkFallQffnhY_IcqHUPXko0V52xnUQ"
+                    class="article__a" data-lang-en="I want to read!" data-lang-de="Ich will lesen!">Ich will
+                    lesen!</a></button>
+        </div>
+    </article>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+
+            <div class="footer__logo"></div>
+            <div class="footer__text">
+
+                <p class="footer__description"
+                    data-lang-en="We offer you to make your event special and unique
+                professional equipment and individual concepts. We can provide you with devices (including assembly)
+                rent. We can also help you buy table football tables (or spare parts) for the office
+                or your own home. We work with Divyam Ruth Taschler so that your event remains unforgettable. With your help, we will prepare souvenirs in the form of photos or a film."
+                    data-lang-de="Damit Dein Event besonders und einzigartig wird, bieten wir Dir professionelle Austattung und individuelle Konzepte an. Du kannst von uns Geräte (inkl. Montage) mieten. Wir unterstützen und beraten Dich auch beim Kauf eines
+                        Tischfussballtisches (oder Ersatzteilen) für das Büro oder das eigene Zuhause. Damit Deine Veranstaltung
+                        unvergesslich bleibt, arbeiten wir mit unserer Fotografin Divyam Täschler zusammen. Mit Deiner Hilfe stellen wir
+                        Erinnerungsmaterial in Form von Fotos oder einem Film zur Verfügung.">
+                    Damit Dein Event besonders und einzigartig wird, bieten wir Dir professionelle Austattung und
+                    individuelle Konzepte
+                    an. Du kannst von uns Geräte (inkl. Montage) mieten. Wir unterstützen und beraten Dich auch beim
+                    Kauf eines
+                    Tischfussballtisches (oder Ersatzteilen) für das Büro oder das eigene Zuhause. Damit Deine
+                    Veranstaltung
+                    unvergesslich bleibt, arbeiten wir mit unserer Fotografin Divyam Täschler zusammen. Mit Deiner Hilfe
+                    stellen wir
+                    Erinnerungsmaterial in Form von Fotos oder einem Film zur Verfügung.</p>
+            </div>
+            <div class="footer__left">
+                <h2 class="footer__left footer__left-text" data-lang-en="needed links" data-lang-de="wichtigste links">
+                    wichtigste links</h2>
+
+                <h3 class="footer__contact footer__left footer__left-one"><a href="#gallery"
+                        class="footer__contact-a footer__hover" data-lang-en="gallery"
+                        data-lang-de="galerie">galerie</a></h3>
+                <hr class="hr">
+                <h3 class="footer__contact footer__left footer__left-two"><a href="#references"
+                        class="footer__contact-a footer__hover" data-lang-en="opinions of other companies" data-lang-de="meinungen anderer
+                        unternehmen">meinungen anderer
+                        unternehmen</a>
+                </h3>
+                <hr class="hr">
+                <h3 class=" footer__contact footer__left footer__left-three"><a href="#konzept"
+                        class="footer__contact-a footer__hover" data-lang-en="conzept"
+                        data-lang-de="konzept">konzepte</a></h3>
+                <hr class="hr">
+            </div>
+            <div class="footer__right">
+                <h2 class=" footer__contact-text" data-lang-en="Contact information"
+                    data-lang-de=" Kontakt Informationen">
+                    Kontakt Informationen</h2>
+                <h3 class="footer__contact footer__contact-one footer__hover"><i
+                        class="fas fa-phone fa-phone__footer"></i>+41 78 924 06 24</h3>
+                <hr class="hr">
+                <h3 class="footer__contact footer__contact-two footer__hover"><i class="fas fa-envelope-open-text"></i>
+                    <a href="mailto:foos.events@gmail.com" class="footer__contact--mail footer__hover">
+                        FOOS.EVENTS@GMAIL.COM</a>
+                </h3>
+                <hr class="hr">
+                <h3 class="footer__contact footer__contact-three footer__hover"><i class="far fa-compass"></i>
+                    <a href="https://www.google.ch/maps/place/Heimstrasse+34,+8953+Dietikon/@47.4113845,8.4021812,17z/data=!3m1!4b1!4m5!3m4!1s0x47900dac7e8a669d:0x556d8fb3a093f529!8m2!3d47.4113809!4d8.4043699"
+                        class="footer__contact--mail footer__hover">HEIMSTRASSE 34,8953 DIETIKON</a>
+                </h3>
+                <hr class="hr">
+            </div>
+
+        </div>
+
+    </footer>
+
+    <footer class="footer__bottom">
+
+        <div class="background__bottom">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#aboutus" class="a__footer" data-lang-en="about us"
+                        data-lang-de="über uns">über uns</a></li>
+                <li class="footer__item"><a href="#konzept" class="a__footer" data-lang-en="conzept"
+                        data-lang-de="konzept">konzept</a></li>
+                <li class="footer__item"><a href="#team" class="a__footer">team</a></li>
+                <li class="footer__item"><a href="#contact" class="a__footer" data-lang-en="contact"
+                        data-lang-de="kontakt">kontakt</a></li>
+            </ul>
+
+        </div>
+
+        </div>
+        <p class="footer__copyright"><i class="far fa-copyright"></i> Foos events</p>
+    </footer>
+
+
+
+
+    <script src="js/animation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://www.youtube.com/player_api"></script> <!-- manage iframe from youtube-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <!-- manage masages from form -->
+    <script src="js/main.js">
+
+    </script>
+    </script>
+</body>
+
+</html>
