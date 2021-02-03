@@ -33,4 +33,4 @@ Page preview on the desktop:
 
 Page preview on mobile:
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59742201/106504224-ec8e8f00-64c6-11eb-951a-5b6f3f992291.gif)
+..
