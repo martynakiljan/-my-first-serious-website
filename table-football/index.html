@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;URL=https://foos-events.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foos Kubiatowicz</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -138,19 +137,19 @@
                 <div class="video-container">
                     <div class="video-foreground">
 
+                        <!-- 
+                        <video class="video" id="BgVideo" autoplay loop muted playsinline width="120%" height="150%">
 
-                        <video class="video" id="BgVideo" muted autoplay width="100%" height="150%"
-                            src="/video/videoplayback.mp4" type="video/mp4">
+                            <source src="./video/videoplayback.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                            <source src="./video/videoplayback.webm" type='video/webm;codecs="vp8, vorbis"' />
+                        </video> -->
+
+
+                        <video class="video" id="BgVideo" autoplay loop muted playsinline width="100%" height="150%"
+                            src="./video/videoplayback.mp4" type="video/mp4">
                         </video>
 
-                        <!-- autoplay muted loop playsinline -->
 
-
-                        <!-- <iframe id="youtube" width="100%" height="150%" rameBorder="0" scrolling="no" loading="eager"
-                            src="https://www.youtube.com/embed/Mj3lqtXTSO4?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=0&loop=1&playlist=Mj3lqtXTSO4&enablejsapi=1"
-                            frameborder="1"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ;
-                            allowfullscreen></iframe> -->
                     </div>
                 </div>
 
@@ -792,14 +791,14 @@ schweizweit. Ein paar Beispiele wofür sich ein solcher Event besonders gut eig
                 <label class="form_label">
                     <span class="form__text form__text-main form--name" data-lang-en="First name:"
                         data-lang-de="Vorname:">Vorname:</span>
-                    <input type="text" class="firstname_form name_form" name="text" id="text" />
+                    <input type="text" class="firstname_form name_form" name="firstname" id="text" />
                 </label>
 
 
                 <label class="form_label">
                     <span class="form__text form__text-main form--name" data-lang-en="Surname:"
                         data-lang-de="Nachname:">Nachname:</span>
-                    <input type="text" class="surname_form name_form" name="text" id="text" />
+                    <input type="text" class="surname_form name_form" name="surname" id="text" />
                 </label>
                 <label class="form_label">
                     <span class="form__text form__text-main">E-mail:</span>
