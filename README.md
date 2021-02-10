@@ -49,8 +49,7 @@ It works in such a way that the website connects to this service thanks to the A
 do you want to watch it live? 
 :collision: this page is on the server :collision:
 
-:arrow_forward:[click me :) :arrow_forward:
-]( https://www.foos-events.com/ )
+:arrow_right: :arrow_right:   [click me](https://www.foos-events.com/ ) :arrow_left: :arrow_left:
 
 ——
 
