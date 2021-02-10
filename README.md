@@ -44,20 +44,20 @@ It works in such a way that the website connects to this service thanks to the A
 * Now you just need to unpack the downloaded file and open it in your favorite editor.
 * and then "go live" is enough
 
---------
+----
 
-<h2>do you want to watch it live? </h2>
+<h3>do you want to watch it live? </h3>
 :collision: this page is on the server :collision:
 
 :arrow_right: :arrow_right:   [click me](https://www.foos-events.com/ ) :arrow_left: :arrow_left:
 
-——---
+----
 
 :computer: TECHNOLOGIES : html, css and JS.
 
 
+----
 
-———--->
 My next small project from JS basics  :arrow_right: :arrow_right: :arrow_right: [CLICK ME ](https://github.com/martynakil/-form---uploading-a-CSV-file-in-JS)
 
 
