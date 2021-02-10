@@ -319,7 +319,7 @@
 
 .video-container {
     overflow: hidden;
-    width: 111%;
+    width: 200%;
     height: 100%;
     position: relative;
     padding-bottom: 56.25%; 
@@ -1718,21 +1718,23 @@
 
     .video-container {
         overflow: hidden;
-        width: 122%;
+        width: 268%;
         height: 100%;
         position: relative;
         padding-bottom: 63.25%;
-        left: 0%;
+        
     } 
+
+    .video {
+        left: 400px;
+    }
 }
-@media screen and (min-width: 280px) and (max-width: 300px) {
+@media screen and (min-width: 280px) and (max-width: 330px) {
 
     .video-container {
         overflow: hidden;
-        width: 152%;
-        height: 100%;
-        position: relative;
+        width: 268%;
         padding-bottom: 63.25%;
-        left: 0%;
+        left: -200px;
     } 
 }
