@@ -1,32 +1,72 @@
-# -my-first-serious-website
+<h1> Website </h1>
 
+*<h2>My first commercial project for a client :blue_book:</h2>*
+>from the series: learning the basics of Java script  :muscle:
 
-My first 'serious' website, which I created for my master's thesis, but also to practice everything 
+----
 
-I've learned so far, i.e. HTML, CSS, JAVA SCRIPT and RWD.
+*The idea for doing this project was to look for friends who are currently looking for a website, but have no funds for it.
+My goal was to do a project for someone, absolutely free - just for practice purposes.
+I spent a lot of time on this project, but I also learned a lot.*
 
-
-The website works on the server:   https://foos-events.com/ 
-
-------------------------------------------------
-It was also the first commercial project for a client. I created the website for free, just to train.
-
-
--The website is fully responsive
--Thanks to the form on the website, the customer can send a message to the owner.
-It works through an API that connects to the service and sends it messages.
-
-I used here: EmailJS
-
-Documentation: https://www.emailjs.com/docs/
+* the website is responsive, i.e. it looks good on all mobile devices
+* is animated
+* the message entered by the user is sent to the website owner
 
 
 
+This project is my first, I know I would do much better now, but still, I'm proud :thumbsup::thumbsup::thumbsup:
 
-Technologies: HTML, CSS, JAVA SCRIPT, RWD (Responsive web design).
+-------
+
+<h3>What did I use in the project? What have I learned?</h3>
+
+* First of all, here I was learning how to get started with the project at all - what HTML structure I need
+* I practiced CSS, and most of all [FLEXBOX](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+* How to position elements on the website
+* [RWD](https://www.bluecorona.com/faq/what-is-a-responsive-website-design/)
+* How to add a flyout menu to a page
+* how to add and style a video on the website
+* how to add pictures, how to arrange them well
+* how to make the user change the language
+* how to make animations
+* how to send a message via the form(how to do form validation)
+* how to add a website to the server
+
+*I used [EMAILJS] for the form (https://www.emailjs.com/docs/)
+It works in such a way that the website connects to this service thanks to the API and it sends messages.*
+
+-----
+<h3>How to open a file? :eyes: </h3>
+
+* On the right side you will find the "clone or download" button - click it.
+* An item should appear with the "Download ZIP" option - click again.
+* Now you just need to unpack the downloaded file and open it in your favorite editor.
+* and then "go live" is enough
+
+-----
+
+do you want to watch it live? 
+:collision: this page is on the server :collision:
+
+:arrow_forward:[click me :) :arrow_forward:
+]( https://www.foos-events.com/ )
+
+——
+
+:computer: TECHNOLOGIES : html, css and JS.
 
 
-Page preview on the desktop:
+
+———>
+My next small project from JS basics  :arrow_right: :arrow_right: :arrow_right: [CLICK ME ](https://github.com/martynakil/-form---uploading-a-CSV-file-in-JS)
+
+
+
+
+
+
+
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/59742201/106504078-c49f2b80-64c6-11eb-8267-ca151a75fb48.gif)
 
