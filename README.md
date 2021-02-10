@@ -1,7 +1,7 @@
 <h1> Website </h1>
 
 *<h2>My first commercial project for a client :blue_book:</h2>*
->from the series: learning the basics of Java script  :muscle:
+>from the series: HTML, CSS practice and JS basics  :muscle:
 
 ----
 
