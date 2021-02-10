@@ -63,9 +63,12 @@ My next small project from JS basics  :arrow_right: :arrow_right: :arrow_righ
 
 
 
+----
 
 
 DESKTOP :white_check_mark:
+
+
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/59742201/106504078-c49f2b80-64c6-11eb-8267-ca151a75fb48.gif)
 
@@ -73,11 +76,15 @@ DESKTOP :white_check_mark:
 
 ![Zrzut ekranu 2021-02-7 o 17 47 47](https://user-images.githubusercontent.com/59742201/107153229-a6c14300-696c-11eb-953a-c8fe5cff7a73.png)
 
+
 ![Zrzut ekranu 2021-02-7 o 17 47 39](https://user-images.githubusercontent.com/59742201/107153231-a88b0680-696c-11eb-9f85-8c3abd4d57c2.png)
+
 
 ![Zrzut ekranu 2021-02-7 o 17 47 30](https://user-images.githubusercontent.com/59742201/107153232-a88b0680-696c-11eb-9c2a-7d1c773b34cc.png)
 
+
 ![Zrzut ekranu 2021-02-7 o 17 47 21](https://user-images.githubusercontent.com/59742201/107153234-a9239d00-696c-11eb-83f7-5b6577643810.png)
+
 
 ![Zrzut ekranu 2021-02-7 o 17 47 03](https://user-images.githubusercontent.com/59742201/107153236-aa54ca00-696c-11eb-800c-1462a49f9758.png)
 
@@ -88,9 +95,13 @@ MOBILE :white_check_mark:
 
 ![Zrzut ekranu 2021-02-10 o 23 05 20](https://user-images.githubusercontent.com/59742201/107578783-78ee2f80-6bf4-11eb-854a-163ea459e285.png)
 
+
+
 ![Zrzut ekranu 2021-02-10 o 23 05 01](https://user-images.githubusercontent.com/59742201/107578787-7986c600-6bf4-11eb-9196-48f1ea5abf4b.png)
 
+
 ![Zrzut ekranu 2021-02-10 o 23 04 40](https://user-images.githubusercontent.com/59742201/107578792-7ab7f300-6bf4-11eb-9e16-52b2631d7cb5.png)
+
 
 ![Zrzut ekranu 2021-02-10 o 23 04 24](https://user-images.githubusercontent.com/59742201/107578794-7b508980-6bf4-11eb-849b-4d11ebcecdce.png)
 
