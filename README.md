@@ -15,7 +15,7 @@ I spent a lot of time on this project, but I also learned a lot.*
 
 
 
-This project is my first, I know I would do much better now, but still, I'm proud :thumbsup::thumbsup::thumbsup:
+This project is my first, I know I would do much better now, but still, I'm proud :thumbsup: :thumbsup: :thumbsup:
 
 -------
 
@@ -33,7 +33,7 @@ This project is my first, I know I would do much better now, but still, I'm prou
 * how to send a message via the form(how to do form validation)
 * how to add a website to the server
 
-*I used [EMAILJS] for the form (https://www.emailjs.com/docs/)
+*I used [EMAILJS](https://www.emailjs.com/docs/) for the form
 It works in such a way that the website connects to this service thanks to the API and it sends messages.*
 
 -----
